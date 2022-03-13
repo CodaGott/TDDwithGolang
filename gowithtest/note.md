@@ -24,3 +24,14 @@ After your code passes, you have to now refactor the code as per TDD requirement
 3. Run the test, see that it fails and check the error message is meaningful
 4. Write enough code to make the test pass
 5. Refactor the code to make it better.
+
+# TDD process and why the steps are important
+
+>>> Write a failing test and see it fail, so we have written a relevant
+> test for requirement and seen that it produces an easy-to understand description
+> of the failure.
+
+>>> Writing the smallest amount of code t make it pass, so we know we have a working software.
+
+>>> Then refactor, backed with safety of our test to ensure we have well-crafted
+> code that is easy to work with.
