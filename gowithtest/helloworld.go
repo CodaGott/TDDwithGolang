@@ -10,14 +10,22 @@ func Hello(name, language string) string {
 	if name == "" && language == ""{
 		return sayHello + "World"
 	}
-	if language == "Spanish" {
+
+
+	switch language {
+	case "French":
+		return sayHelloInFrench + name
+	case "Spanish":
 		return sayHelloInSpanish + name
 	}
-
-	if language == "French" {
-
-		return sayHelloInFrench + name
-	}
+	//if language == "Spanish" {
+	//	return sayHelloInSpanish + name
+	//}
+	//
+	//if language == "French" {
+	//
+	//	return sayHelloInFrench + name
+	//}
 	return sayHello + name
 }
 
