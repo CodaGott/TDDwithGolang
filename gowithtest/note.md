@@ -18,3 +18,9 @@ import testing in the go file the same way fmt is imported.
 
 After your code passes, you have to now refactor the code as per TDD requirements.
 
+# TDD Discipline
+1. Write a test.
+2. Make the compiler pass, by not complaining about any forgotten line.
+3. Run the test, see that it fails and check the error message is meaningful
+4. Write enough code to make the test pass
+5. Refactor the code to make it better.
